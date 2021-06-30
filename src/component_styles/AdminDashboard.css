@@ -1,0 +1,81 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+body {
+  margin: 0;
+  padding: 0;
+  background: #fff;
+  color: #fff;
+  font-family: Arial;
+  font-size: 1vw;
+  background-image: url(cover.jpg);
+  background-size: cover;
+}
+
+.menuBar {
+  float: right;
+  margin-top: 1vw;
+}
+
+/* Style the links inside the navigation bar */
+.menuBar a {
+  float: right;
+  color: #ffffff;
+  text-align: center;
+  padding: 1vw;
+  text-decoration: none;
+  font-family: "Exo", sans-serif;
+  font-size: 2vw;
+  font-weight: 800;
+  cursor: pointer;
+}
+
+/* Change the color of links on hover */
+.menuBar a:hover {
+  /*background-color: rgba(255, 255, 255, 0.6);*/
+  color: #a18d6c;
+}
+
+/* Add a color to the active/current link */
+.menuBar a.active {
+  background-color: rgba(255, 255, 255, 0.6);
+  color: #a18d6c;
+}
+.content {
+  float: left;
+  background-color: rgba(24, 129, 38, 0.3);
+  margin-left: 3vw;
+  margin-right: auto;
+  margin-top: 3vw;
+  padding: 2vw;
+  display: block;
+  border-radius: 1vw;
+  width: 30vw;
+  font-family: "Exo", sans-serif;
+  font-size: 1.5vw;
+}
+.logo {
+  width: 6vw;
+  float: left;
+  margin-right: 1vw;
+}
+.resturauntName {
+  /*float: right;*/
+  color: #fff;
+  font-family: "Exo", sans-serif;
+  font-size: 2vw;
+  font-weight: 500;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(24, 129, 38, 0.3);
+  color: white;
+  text-align: center;
+  display: block;
+  border-top-right-radius: 1vw;
+  border-top-left-radius: 1vw;
+  font-family: "Exo", sans-serif;
+  font-size: 1vw;
+}

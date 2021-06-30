@@ -1,0 +1,148 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+body {
+  margin: 0;
+  padding: 0;
+  background: rgb(226, 253, 127);
+  color: #fff;
+  background-image: url(floor.jpg);
+
+  background-size: cover;
+}
+.ViewReservation_menu_bar {
+  /*overflow: hidden;*/
+
+  width: 100%;
+}
+
+.logo {
+  width: 6vw;
+  float: left;
+}
+
+/* Style the links inside the navigation bar */
+.ViewReservation_menu_bar a {
+  position: absolute;
+  margin-top: 0.7vw;
+  color: #ffffff;
+  text-align: center;
+  background-color: rgba(147, 197, 61, 0.76);
+  padding: 1vw 1vw;
+  text-decoration: none;
+  font-family: "Exo", sans-serif;
+  font-size: 1.5vw;
+  font-weight: 800;
+  border-radius: 1vw;
+  cursor: pointer;
+}
+
+/* Change the color of links on hover */
+.ViewReservation_menu_bar a:hover {
+  background-color: rgba(126, 175, 41, 0.76);
+  color: #ffffff;
+}
+
+/* Add a color to the active/current link */
+.ViewReservation_menu_bar a.active {
+  background-color: rgba(232, 240, 131, 0.6);
+  color: #a18d6c;
+}
+.ViewReservation_left {
+  float: left;
+  width: 17vw;
+  height: 30vw;
+  padding: 1vw;
+  border-radius: 1vw;
+  z-index: 2;
+  font-family: "Exo", sans-serif;
+  font-size: 2vw;
+  font-weight: 400;
+  background-color: rgba(147, 197, 61, 0.76);
+  box-shadow: 0 0.2vw 0.4vw 0 rgba(0, 0, 0, 0.2),
+    0 0.3vw 2vw 0 rgba(0, 0, 0, 0.2);
+}
+.ViewReservation_left p {
+  font-size: 2vw;
+  font-weight: 600;
+  margin-top: 1vw;
+  text-align: center;
+  color: rgb(255, 255, 255);
+}
+.ViewReservation_bodycontainer {
+  position: absolute;
+  top: 10vw;
+  left: 28vw;
+  width: 40vw;
+}
+.ViewReservation_right {
+  position: relative;
+  float: right;
+  background-color: rgba(147, 197, 61, 0.76);
+  height: 30vw;
+  width: 17vw;
+  padding: 1vw;
+  border-radius: 1vw;
+  font-family: "Exo", sans-serif;
+  font-size: 2vw;
+  font-weight: 400;
+  z-index: 2;
+  box-shadow: 0 0.2vw 0.4vw 0 rgba(0, 0, 0, 0.2),
+    0 0.3vw 2vw 0 rgba(0, 0, 0, 0.2);
+}
+
+.ViewReservation_right p {
+  font-size: 1vw;
+  font-weight: 600;
+  text-align: center;
+  white-space: pre-wrap;
+  /*position: relative;
+        margin-top: 20px;
+        text-align: center;
+        color: rgb(255, 255, 255);*/
+}
+.ViewReservation_bottom_right {
+  position: absolute;
+  margin-top: 7vw;
+}
+
+.ViewReservation_button {
+  width: 17vw;
+  height: 3vw;
+  background: #fff;
+  border: 0.1vw solid #fff;
+  cursor: pointer;
+  border-radius: 0.5vw;
+  color: #a18d6c;
+  font-family: "Exo", sans-serif;
+  font-size: 1vw;
+  font-weight: 400;
+  padding: 1vw;
+  margin-top: 1vw;
+}
+
+.ViewReservation_button:hover {
+  background-color: rgba(255, 255, 255, 0.4);
+  color: #a18d6c;
+}
+.ViewReservation_select_items {
+  width: 17vw;
+  height: 21.5vw;
+  color: #a18d6c;
+  font-family: "Exo", sans-serif;
+  font-size: 0.8vw;
+  font-weight: 400;
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(24, 129, 38, 0.3);
+  color: white;
+  text-align: center;
+  display: block;
+  border-top-right-radius: 1vw;
+  border-top-left-radius: 1vw;
+  font-family: "Exo", sans-serif;
+  font-size: 1vw;
+}

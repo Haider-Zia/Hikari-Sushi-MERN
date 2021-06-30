@@ -1,0 +1,168 @@
+@import url(https://fonts.googleapis.com/css?family=Exo:100,200,400);
+@import url(https://fonts.googleapis.com/css?family=Source+Sans+Pro:700,400,300);
+
+body {
+  color: #fff;
+  font-family: Arial;
+  font-size: 12px;
+
+  margin: 0;
+  padding: 0;
+  background: rgb(226, 253, 127);
+  color: #fff;
+  background-image: url(login.jpeg);
+
+  background-size: cover;
+}
+.SignInMenuBar {
+  /*overflow: hidden;*/
+
+  width: 100%;
+}
+
+.logo {
+  width: 6vw;
+  float: left;
+}
+
+/* Style the links inside the navigation bar */
+.SignInMenuBar a {
+  position: absolute;
+  margin-top: 0.7vw;
+  color: #ffffff;
+  text-align: center;
+  background-color: rgba(147, 197, 61, 0.76);
+  padding: 1vw 1vw;
+  text-decoration: none;
+  font-family: "Exo", sans-serif;
+  font-size: 1.5vw;
+  font-weight: 800;
+  border-radius: 1vw;
+  cursor: pointer;
+}
+
+/* Change the color of links on hover */
+.SignInMenuBar a:hover {
+  background-color: rgba(126, 175, 41, 0.76);
+  color: #ffffff;
+}
+
+/* Add a color to the active/current link */
+.SignInMenuBar a.active {
+  background-color: rgba(232, 240, 131, 0.6);
+  color: #a18d6c;
+}
+
+.SignInHeader {
+  position: absolute;
+  top: 24vw;
+  left: 28vw;
+  z-index: 2;
+}
+
+.SignInHeader div {
+  float: left;
+  color: #fff;
+  font-family: "Exo", sans-serif;
+  font-size: 4vw;
+  font-weight: 900;
+}
+
+.SignInHeader div span {
+  color: #ffffff !important;
+}
+
+.SignInLogin {
+  position: absolute;
+  top: 18vw;
+  left: 50vw;
+  height: 14vw;
+  width: 15vw;
+  padding: 2vw;
+  z-index: 2;
+}
+
+.SignInLogin input[type="text"] {
+  width: 14.6vw;
+  height: 3vw;
+  background: transparent;
+  border: 0.1vw solid rgb(255, 255, 255);
+  border-radius: 0.2vw;
+  color: #fff;
+  font-family: "Exo", sans-serif;
+  font-size: 1vw;
+  font-weight: 400;
+  margin-top: 1vw;
+}
+
+.SignInLogin input[type="password"] {
+  width: 14.6vw;
+  height: 3vw;
+  background: transparent;
+  border: 0.1vw solid rgb(255, 255, 255);
+  border-radius: 0.2vw;
+  color: #fff;
+  font-family: "Exo", sans-serif;
+  font-size: 1vw;
+  font-weight: 400;
+  margin-top: 1vw;
+}
+
+.SignInLogin button[type="submit"] {
+  width: 15vw;
+  height: 3vw;
+  background: #fff;
+  border: 0.05vw solid #fff;
+  cursor: pointer;
+  border-radius: 0.2vw;
+  color: #a18d6c;
+  font-family: "Exo", sans-serif;
+  font-size: 1vw;
+  font-weight: 600;
+  padding: 1vw;
+  margin-top: 1vw;
+}
+
+.SignInLogin button[type="submit"]:hover {
+  opacity: 0.8;
+}
+
+.SignInLogin input[type="button"]:active {
+  opacity: 0.6;
+}
+
+.SignInLogin input[type="text"]:focus {
+  outline: none;
+  border: 0.05vw solid rgba(255, 255, 255, 0.9);
+}
+
+.SignInLogin input[type="password"]:focus {
+  outline: none;
+  border: 0.05vw solid rgba(255, 255, 255, 0.9);
+}
+
+.SignInLogin button[type="submit"]:focus {
+  outline: none;
+}
+
+::-webkit-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+
+::-moz-input-placeholder {
+  color: rgba(255, 255, 255, 0.6);
+}
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: rgba(24, 129, 38, 0.3);
+  color: white;
+  text-align: center;
+  display: block;
+  border-top-right-radius: 1vw;
+  border-top-left-radius: 1vw;
+  font-family: "Exo", sans-serif;
+  font-size: 1vw;
+}
